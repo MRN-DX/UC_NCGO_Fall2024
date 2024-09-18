@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1687724-6671-499f-9052-a87ec8f8a61a" name="Changes" comment="" />
+    <list default="true" id="e1687724-6671-499f-9052-a87ec8f8a61a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UC NetCode 2024 Fall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UC NetCode 2024 Fall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/PlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/PlayerPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Arena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Arena.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/ClientNetworkTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.10.0/Runtime/Connection/NetworkConnectionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UC NetCode 2024 Fall_clone_0/Library/PackageCache/com.unity.netcode.gameobjects@1.10.0/Runtime/Connection/NetworkConnectionManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2l4DMoPWH3aV9b9sWnzBvICsLUX" />
   <component name="ProjectViewState">
@@ -97,6 +107,7 @@
       <workItem from="1724430415126" duration="1309000" />
       <workItem from="1724431754425" duration="1235000" />
       <workItem from="1724440675775" duration="3245000" />
+      <workItem from="1725931850390" duration="4673000" />
     </task>
     <servers />
   </component>
