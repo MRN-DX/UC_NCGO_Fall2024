@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 3902355548982554442}
   - component: {fileID: 1112008361885707199}
   - component: {fileID: 973676704306516635}
-  - component: {fileID: 7723050819274518308}
-  - component: {fileID: 3572541678194030010}
+  - component: {fileID: -3602975979266891011}
+  - component: {fileID: 7422855678965243483}
+  - component: {fileID: 8988582281594239321}
   m_Layer: 0
-  m_Name: PlayerPrefab
+  m_Name: ServerPlayerPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3926964693
+  GlobalObjectIdHash: 959627404
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -132,7 +133,7 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &7723050819274518308
+--- !u!114 &-3602975979266891011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,10 +142,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 3754557789019145627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f4e8ef76616b9146a2abf5aafddc5e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 97e4c03ecd56a6a4d998f25872916756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3572541678194030010
+  _pSpeed: 5
+  _pTransform: {fileID: 1800445376041961130}
+  _CC: {fileID: 7422855678965243483}
+--- !u!143 &7422855678965243483
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3754557789019145627}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8988582281594239321
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,7 +183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3754557789019145627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ce146a7b0ab36f49a1d6653017c5550, type: 3}
+  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UseUnreliableDeltas: 0

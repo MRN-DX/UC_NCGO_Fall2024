@@ -6,10 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e1687724-6671-499f-9052-a87ec8f8a61a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UC NetCode 2024 Fall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UC NetCode 2024 Fall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Inputs/MyPlayerInputAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Inputs/MyPlayerInputAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Inputs/PlayerInputAction.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Inputs/PlayerInputAction.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/PlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/PlayerPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/ServerPlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/ServerPlayerPrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Arena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Arena.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ServerPlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ServerPlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/ClientNetworkTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ServerPlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.10.0/Components/NetworkRigidbody.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.10.0/Runtime/Connection/NetworkConnectionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../UC NetCode 2024 Fall_clone_0/Library/PackageCache/com.unity.netcode.gameobjects@1.10.0/Runtime/Connection/NetworkConnectionManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -52,7 +59,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/UCNCGO\UC NetCode 2024 Fall.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/New folder\UC NetCode 2024 Fall.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\nec8ya\Documents\UC\Builds\UCNCGO" />
       <option name="PASS_PARENT_ENVS" value="1" />
