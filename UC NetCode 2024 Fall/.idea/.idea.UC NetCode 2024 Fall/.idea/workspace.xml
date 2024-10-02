@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1687724-6671-499f-9052-a87ec8f8a61a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UC NetCode 2024 Fall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UC NetCode 2024 Fall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Inputs/MyPlayerInputAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Inputs/MyPlayerInputAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Inputs/PlayerInputAction.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Inputs/PlayerInputAction.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/PlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/PlayerPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/ServerPlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Prefabs/ServerPlayerPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/App/Scenes/Arena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Scenes/Arena.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ServerPlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ServerPlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/App/Resource/Materials/FloorMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/App/Resource/Materials/FloorMat.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +18,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/ClientNetworkTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/Player/PlayerInfoData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/App/Resource/Scripts/UI/UI_NetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerLabel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ServerPlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.10.0/Components/NetworkRigidbody.cs" root0="SKIP_HIGHLIGHTING" />
@@ -38,28 +32,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\nec8ya\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\nec8ya\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\nec8ya\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\nec8ya\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\nec8ya\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\nec8ya\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/New folder\UC NetCode 2024 Fall.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/UCNCGO\UC NetCode 2024 Fall.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\nec8ya\Documents\UC\Builds\UCNCGO" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -115,6 +110,7 @@
       <workItem from="1724431754425" duration="1235000" />
       <workItem from="1724440675775" duration="3245000" />
       <workItem from="1725931850390" duration="4673000" />
+      <workItem from="1727821806553" duration="6098000" />
     </task>
     <servers />
   </component>
